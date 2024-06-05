@@ -6,6 +6,7 @@ public class EstruturaCondicial {
 	public static void main(String[] args) {
 
 		// getHoras - Method Depreciated
+		@SuppressWarnings("deprecation")
 		int hora = new Date().getHours();
 
 		Scanner sc = new Scanner(System.in);
