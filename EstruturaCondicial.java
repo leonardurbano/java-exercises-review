@@ -14,11 +14,11 @@ public class EstruturaCondicial {
 		String name = sc.nextLine();
 
 		if (hora > 2 && hora < 12) {
-			System.out.println("Bom dia, " + name);
+			System.out.println("Good morning, " + name);
 		} else if (hora > 12 && hora < 18) {
-			System.out.println("Boa tarde, " + name);
+			System.out.println("Good afternoon, " + name);
 		} else {
-			System.out.println("Boa noite, " + name);
+			System.out.println("Good night, " + name);
 		}
 
 		System.out.println("-----------------------");
