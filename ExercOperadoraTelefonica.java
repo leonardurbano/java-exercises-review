@@ -22,7 +22,7 @@ public class ExercOperadoraTelefonica {
 		double value = 50.00;
 
 		if (min > 100) {
-			value += (min -= 100) * 2;
+			value += (min - 100) * 2.0;
 		}
 
 		System.out.printf("Amount payable: $ %.2f%n", value);
