@@ -16,10 +16,10 @@ public class TestNota {
 		System.out.println(">>>Calculating quarter grades");
 		System.out.print("Student: ");
 		sc.nextLine();
-		System.out.println("Notas:");
-		n.noteA = sc.nextInt();
-		n.noteB = sc.nextInt();
-		n.noteC = sc.nextInt();
+		System.out.println("Grades:");
+		n.gradeA = sc.nextInt();
+		n.gradeB = sc.nextInt();
+		n.gradeC = sc.nextInt();
 		System.out.println("---------------------");
 		System.out.printf("FINAL GRADE: %.2f%n", n.sumNote());
 
@@ -32,5 +32,4 @@ public class TestNota {
 
 		sc.close();
 	}
-
 }
