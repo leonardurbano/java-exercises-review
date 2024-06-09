@@ -1,3 +1,4 @@
+package exercise.logic;
 import java.util.Locale;
 
 public class VariaveisProdutos {

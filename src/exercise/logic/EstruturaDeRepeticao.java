@@ -1,3 +1,4 @@
+package exercise.logic;
 import java.util.Scanner;
 
 public class EstruturaDeRepeticao {

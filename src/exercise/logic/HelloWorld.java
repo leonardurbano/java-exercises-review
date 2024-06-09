@@ -1,3 +1,4 @@
+package exercise.logic;
 
 public class HelloWorld {
 

@@ -1,3 +1,4 @@
+package exercise.logic;
 public class TrabalhandoString {
 
 	public static void main(String[] args) {
