@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import exercise.oop.entities.Nota;
 
-public class NotaTest {
+public class TestNota {
 
 	public static void main(String[] args) {
 
